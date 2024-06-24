@@ -1,0 +1,69 @@
+0{
+getup "Spawn" ()
+entertrigger "The Top" (-1.5266 13.5646 31.1516 0.001 0.001 0.001)
+fall "Fall" ()
+}
+1{
+getup "Spawn" ()
+entertrigger "The Top" (1.17564 16.2941 25.21544 0.001 0.001 0.001)
+fall "Fall" ()
+}
+2{
+getup "Spawn" ()
+entertrigger "The Top" (-2.31642 11.0628 5.15093 0.001 0.001 0.001)
+fall "Fall" ()
+}
+3{
+getup "Spawn" ()
+entertrigger "The Top" (35.05354 67.3055 74.78088 0.001 0.001 0.001)
+fall "Fall" ()
+}
+4{
+getup "Spawn" ()
+entertrigger "The Top" (24.377 21.77179 57.765 1.2328 0.001 2.007529)
+fall "Fall" ()
+}
+5{
+getup "Spawn" ()
+entertrigger "The Top" (-2.32 32.2188 27.846 0.6832314 0.001 4.03762)
+fall "Fall" ()
+}
+6{
+getup "Spawn" ()
+entertrigger "The Top" (108.452 64.80744 23.525 0.4084604 0.001 0.4058668)
+fall "Fall" ()
+}
+7{
+getup "Spawn" ()
+entertrigger "The Top" (-130.7731 44.15978 23.9025 0.001 0.001 0.001)
+fall "Fall" ()
+}
+8{
+getup "Spawn" ()
+entertrigger "The Top" (-16.713 71.2957 28.731 2.866499 0.001 3.687503)
+fall "Fall" ()
+}
+9{
+getup "Spawn" ()
+entertrigger "The Top" (-8.66329 74.25169 147.2264 0.001 0.001 0.001)
+fall "Fall" ()
+}
+10{
+getup "Spawn" ()
+entertrigger "The Top" (6.166 41.58564 28.263 0.2978743 0.001 0.2967619)
+fall "Fall" ()
+}
+11{
+getup "Spawn" ()
+entertrigger "The Top" (14.627599 77.02357 -16.33981 0.001 0.001 0.001)
+fall "Fall" ()
+}
+12{
+getup "Spawn" ()
+entertrigger "The Top" (-1.581738 13.5646 31.15671 0.001 0.001 0.001)
+fall "Fall" ()
+}
+default{
+getup "Spawn" ()
+fall "Fall" ()
+}
