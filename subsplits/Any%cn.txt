@@ -1,0 +1,47 @@
+0{
+getup "起身" ()
+jumpaftertrigger "跳岛" (5 4 2 50 20 1)
+fall "刷新" ()
+}
+1{
+getup "起身" ()
+jumpaftertrigger "出青苔" (-8 4 5.5 4 1 1)
+fall "刷新" ()
+}
+2{
+getup "起身" ()
+jumpaftertrigger "碰火车" (4 -1 17 6 3 1)
+fall "刷新" ()
+}
+3{
+getup "起身" ()
+grab "抓火车" (11 18.5 6 1 2 2)
+jumpaftertrigger "跳岛" (6 20 14 15 8 1)
+fall "刷新" ()
+}
+4{
+getup "起身" ()
+jumpaftertrigger "上起重机" (10.5 4.5 31 2 1 2)
+grab "抓水管" (0 9.5 36 2 2 2)
+grab "甩墙" (-18 13 40 2 2 2)
+fall "刷新" ()
+}
+5{
+getup "起身" ()
+jumpbeforetrigger "出门" (55 -8 1 1 5 5)
+jumpbeforetrigger "出岛" (24 -13 18 10 20 1)
+}
+8{
+getup "起身" ()
+grab "抓墙" (10 1 -16 2 2 1)
+grab "抬门" (-4 4 15 5 1 5)
+}
+11{
+jumpaftertrigger "上cp1" (57 28 -99 2 1 12)
+jumpaftertrigger "上墙" (50 29 -63 5 1 5)
+grab "抓引爆器" (50.5 34.3 -43.5 2 1 2)
+}
+default{
+getup "起身" ()
+fall "刷新" ()
+}
