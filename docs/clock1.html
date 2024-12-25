@@ -1,0 +1,92 @@
+<!--
+
+このHTMLソースは改変自由です。お好みに合わせて自由にご利用ください。
+クレジット表記や使用報告は不要です。
+再配布や自作発言はご遠慮ください。
+
+MinozKi｜mooncape
+https://twitter.com/minozki_i
+https://mc-stock.site/
+
+-->  
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+/* ▼ ここでテキストの色を変更 ▼ */
+    color: #5bd1df;
+/* ▲ ここでテキストの色を変更 ▲ */
+}
+
+.nowtime{
+    margin-top: -19px;
+    margin-left: -1px;
+    width: 905px;
+    height:70px;
+    padding : 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    /* ▼ ここで背景の色を変更 ▼ */
+    background: #00000000;
+    /* ▲ ここで背景の色を変更 ▲ */
+}
+
+#time{
+    display: inline;
+    line-height: 1em;/* 行間 */
+    letter-spacing: 3px;/* 字間 */
+    font-size: 60px;
+}
+
+#date{
+    line-height: 1.5em;/* 行間 */
+    letter-spacing: 3px;
+    font-size: 59px;
+}
+
+ #colon{
+    vertical-align: 7%;
+}
+
+</style>
+
+</head>
+    
+    
+<body>
+
+<div class="nowtime">
+    
+<!-- ここから時刻 -->
+<p id="time"/>
+  <script language="JavaScript">
+  var day = function() {
+    var dt = dayjs(new Date());
+    var element = document.getElementById("time");
+      element.innerHTML = `<span id="date">${dt.format('YYYY/MM/DD ddd')}</span> <span id="time">${dt.format('HH:mm:ss.SSS')}</span>
+  `;
+  };
+  setInterval(day, 1);
+  </script>
+<!-- ここまで時刻 -->
+
+</div>
+    
+</body>
+</html>
